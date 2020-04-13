@@ -1,9 +1,9 @@
 # boiler-plate-login
-> [Node.js and React] 노드,리액트, 몽고DB를 이용한 회원가입 보일러 플레이트 만들기
+> [Node.js and React] 노드,리액트, 몽고DB를 이용한 '회원가입/로그인' 보일러 플레이트 만들기
   <br/><br/>
 
 ## 📖 Introduction 
-node.js, React와 MongoDB를 이용한 회원가입 보일러 플레이트를 제작합니다.<br/><br/>
+node.js, React와 MongoDB를 이용한 '회원가입/로그인' 보일러 플레이트를 제작합니다.<br/><br/>
 
 ## 📝 list
 제작할 코드와 문서들입니다.<br/>
@@ -27,3 +27,10 @@ feat: Protection of confidential information about DB access
 
 feat: Password encryption using bcrypt
 - [x] [💻] bcrypt를 이용해 비밀번호를 암호화 DB에 저장
+
+feat: add login function
+- [x] [💻] bcrypt를 이용한 로그인 기능 구현
+- [x] [💻] jsonwebtoken을 이용한 토큰 생성
+
+fix: login bug fix
+- [x] [🔨] 로그인 기능 동작 중 오류 발생으로 인한 코드 수정
