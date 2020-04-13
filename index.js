@@ -22,6 +22,8 @@ app.get('/', (req,res) => res.send('hellow world! 안녕하세요 check nodemon'
 
 
 app.post('/register',(req,res)=>{
+
+	
 	//회원가입 시 필요한 정보들을 client에서 가져오면
 	//그것들을 데이터 베이스에 넣어준다.
 
