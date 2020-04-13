@@ -18,3 +18,12 @@ ver 1.0
 ver 1.1
 - [x] [💻] BodyPaser
 - [x] [💻] PostMan을 이용한 회원가입 기능 확인
+
+feat: add nodemon dev
+- [x] [💻] nodemon을 이용해 코드 변경시 바로 반영
+
+feat: Protection of confidential information about DB access
+- [x] [💻] heroku를 이용해서 앱 배포와 git commit시에 DB 정보에 대한 내용을 보호
+
+feat: Password encryption using bcrypt
+- [x] [💻] bcrypt를 이용해 비밀번호를 암호화 DB에 저장
