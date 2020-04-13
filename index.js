@@ -17,7 +17,7 @@ mongoose.connect('mongodb+srv://ycg02116:abcd1234@boilerplate-j0sts.mongodb.net/
 
 
 
-app.get('/', (req,res) => res.send('hellow world! 안녕하세요'))
+app.get('/', (req,res) => res.send('hellow world! 안녕하세요 check nodemon'))
 
 
 app.post('/register',(req,res)=>{
