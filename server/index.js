@@ -23,6 +23,8 @@ mongoose.connect(config.mongoURI,{
 
 app.get('/', (req,res) => res.send('hellow world! 안녕하세요 check nodemo777'))
 
+app.get('/api/hello',(req,res)=> res.send("hello Proxy Setting check"))
+
 
 app.post('/api/users/register',(req,res)=>{
 
@@ -39,6 +41,10 @@ app.post('/api/users/register',(req,res)=>{
 	})
 
 })
+
+
+
+
 
 app.post('/api/users/login',(req,res)=>{
 	//요청된 이메일을 데이터 베이스에서 있는지 찾는다.
