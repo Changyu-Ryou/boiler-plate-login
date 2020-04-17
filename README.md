@@ -14,23 +14,48 @@ ver 1.0
 - [x] [💻] MongoDB 연결
 - [x] [💻] MongoDB Model & Schema 생성
 - [x] [💻] github 연결
-  
+
+  <br/>
 ver 1.1
 - [x] [💻] BodyPaser
 - [x] [💻] PostMan을 이용한 회원가입 기능 확인
 
+  <br/>
 feat: add nodemon dev
 - [x] [💻] nodemon을 이용해 코드 변경시 바로 반영
 
+  <br/>
 feat: Protection of confidential information about DB access
 - [x] [💻] heroku를 이용해서 앱 배포와 git commit시에 DB 정보에 대한 내용을 보호
 
+  <br/>
 feat: Password encryption using bcrypt
 - [x] [💻] bcrypt를 이용해 비밀번호를 암호화 DB에 저장
 
+  <br/>
 feat: add login function
 - [x] [💻] bcrypt를 이용한 로그인 기능 구현
 - [x] [💻] jsonwebtoken을 이용한 토큰 생성
 
+  <br/>
 fix: login bug fix
 - [x] [🔨] 로그인 기능 동작 중 오류 발생으로 인한 코드 수정
+
+  <br/>
+feat: add logout function
+- [x] [💻] db에 저장된 token값을 지움으로써 로그아웃 기능 구현
+
+  <br/>
+feat: install React and Make new directory
+- [x] [💻] boiler-plate에 유리한 디렉토리 구조를 만들고 리액트를 설치함
+
+  <br/>
+feat: Setting Proxy, fix CORS issue
+- [x] [💻] Proxy설정을 통해 CORS issue 해결
+
+  <br/>
+feat: install and Setting Redux, Concurrently
+- [x] [💻] Concurrently를 이용한 server, client 동시 실행, 그리고 redux에 대한 이해와 설치를 통한 다음 작업 진행.
+
+  
+  
