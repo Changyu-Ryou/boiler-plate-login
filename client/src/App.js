@@ -15,14 +15,11 @@ function App() {
   return (
     <Router>
       <div>
-     
-
-        <hr />
 
         <Switch>
           <Route exact path="/" component={LandingPage} />
-          <Route path="/LoginPage" component={LoginPage} />
-          <Route path="/RegisterPage" component={RegisterPage} />
+          <Route path="/login" component={LoginPage} />
+          <Route path="/register" component={RegisterPage} />
         </Switch>
       </div>
     </Router>
