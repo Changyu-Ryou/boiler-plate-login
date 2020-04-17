@@ -57,5 +57,25 @@ feat: Setting Proxy, fix CORS issue
 feat: install and Setting Redux, Concurrently
 - [x] [💻] Concurrently를 이용한 server, client 동시 실행, 그리고 redux에 대한 이해와 설치를 통한 다음 작업 진행.
 
+  <br/>
+feat: add client login page
+- [x] [💻] Client의 login 페이지 제작 / 기능 구현
+  
+<img src="https://user-images.githubusercontent.com/56837413/79609461-c4998f00-8131-11ea-90c9-1c2782173e41.png" width="40%"></img>
+
+  <br/>
+
+feat: feat: add register page
+- [x] [💻] Client의 register 페이지 제작 / 기능 구현
+  
+<img src="https://user-images.githubusercontent.com/56837413/79609530-e09d3080-8131-11ea-9e0b-ffb3273856db.png" width="40%"></img>
+  <br/>
+feat: Authentication Check
+- [x] [💻] Client의 LandingPage logout 기능 구현 및 Authentication check을 통한 페이지 접근 권한 확인 후 접근 가능 유무 판단
+  
+<img src="https://user-images.githubusercontent.com/56837413/79609323-813f2080-8131-11ea-9ada-23fc6757dbfc.png" width="40%"></img>
+
+  <br/>
   
   
+  -END-
